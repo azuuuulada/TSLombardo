@@ -48,6 +48,15 @@ nav li{
 }
 p{font-size: 25px;font-family: 'IBM Plex Mono', monospace;color: #467aa7;font-weight: bold;}
 
+#formContacto{
+    background-image: url("../img/contacto.jpg");
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 h1 {
     font-family: 'IBM Plex Mono', monospace; 
     font-size: 30px; 
@@ -105,128 +114,3 @@ footer div h3{font-family: 'IBM Plex Mono', monospace;font-style: bold;text-alig
 
 
 
-
-/*                ESTILOS DE BODY
-#fondo{
-    background-color: #E6DAEC;
-}
-#bodyNav {
-	background-color: #b8acd1;
-	position:sticky;
-	top: 0px;
-    font-weight: bold;
-    font-family: 'IBM Plex Mono', monospace;
-    text-align: right;
-    
-}
-#headerLogo{
-	padding: 10px;
-    bottom: 0px;
-    text-align: left;
-    background-color: #b8acd1;
-}
- li {
-    display: inline-block;
-    width: 15%;
-    position:relative;
-    font-size: 25px;
-    font-family: 'IBM Plex Mono', monospace;
-}
- ul ul {
-    position: relative;
-    display: none;
-    font-family: 'IBM Plex Mono', monospace;
-}
- ul ul li {
-    display: flex;
-    width: 200px;
-    padding: 10px;
-    font-family: 'IBM Plex Mono', monospace;
-}
- ul ul li a {color: #4e4466}
- ul li:hover ul {
-    position: absolute;
-    display: block;
-    background-color: #b8acd1 ;
-    font-family: 'IBM Plex Mono', monospace;
- }
-
- /*                   ESTILOS DE MAIN
-
- div h1 {
-    color: black;
-    font-style: oblique;
-    text-align: right;
-    background-image: url("../img/header2.jpeg");
-    padding: 190px;
-    font-size: 30px;
-    font-family: 'IBM Plex Mono', monospace;
- }
- div h2{
-    color: black;
-    font-family: 'IBM Plex Mono', monospace;
-    text-align: center;
-    background-color:#c9e8fd ;
-    font-size: 25px;
- }
-#pDiv{
-    font-size: 30px;
-    font-family: 'IBM Plex Mono', monospace;
-    color: #526d85;
-    font-weight: bold;
-    
-}
-.pDiv2{
-    color:black;
-    font-size: 20px;
-    font-family: 'IBM Plex Mono', monospace;
-    text-align: center;
-}
-div h4{
-    color:#526d85;
-    font-size: 20px;
-    text-align: left;
-}
-#pDiv3{
-    color:#526d85;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 19px;
-}
-
-#formContacto{
-    background-image: url("../img/contacto.jpg");
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: bold;
-    font-size: 25px;
-    color: white;
-    text-shadow: 2px 2px black;
-}
-
-                 ESTILOS DE FOOTER
-.footerNav {
-	position: relative;
-	bottom: 30px;
-	left: 400px;
-    font-family: 'IBM Plex Mono', monospace;
-}
-footer nav ul {
-	text-align: center;
-	bottom: 0px;
-	left: 0px;
-    font-family: 'IBM Plex Mono', monospace;
-}
-footer nav li {
-    display: inline-block;
-    width: 15%;
-    position:static;
-    font-size: 20px;
-}
-footer div h3{
-    font-family: 'IBM Plex Mono', monospace;
-    font-style: bold;
-    text-align: center;
-    background-color: #c9e8fd;
-    position:fixed;
-    bottom:5px;
-    left:10px;
-}*/
