@@ -8,7 +8,7 @@
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, auto);
 } 
-#fondo{background-color: #E6DAEC;}
+#fondo{background-image: linear-gradient(to right, #E6DAEC, rgb(195, 232, 244));}
 header{grid-area:header;padding:20px 0;}
 main{grid-area:main;}
 footer{grid-area:footer;padding: 50px 0;}
@@ -55,6 +55,9 @@ p{font-size: 25px;font-family: 'IBM Plex Mono', monospace;color: #467aa7;font-we
     font-size: 25px;
     color: white;
     text-shadow: 2px 2px black;
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 h1 {
@@ -64,6 +67,11 @@ h1 {
     padding: 190px; font-size: 30px;
     text-align: right;
     flex-wrap: wrap;
+}
+h1{
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 h2{font-family: 'IBM Plex Mono', monospace; font-size: 25px;}
 h3, h4{font-family: 'IBM Plex Mono', monospace;font-size: 20px;}
@@ -109,7 +117,11 @@ footer div h3{font-family: 'IBM Plex Mono', monospace;font-style: bold;text-alig
     .titulo{grid-area:titulo;}
     
 }
+@keyframes aparecer {
+    0%{opacity:0;}
+    100%{opacity: 1;}
 
+}
 
 
 
