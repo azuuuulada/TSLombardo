@@ -68,8 +68,8 @@ h3, h4{font-family: 'IBM Plex Mono', monospace;font-size: 20px;}
 
 .footerNav{bottom: 30px;left: 400px;font-family: 'IBM Plex Mono', monospace;}
 footer nav ul{text-align: center;bottom: 0px;left: 0px;font-family: 'IBM Plex Mono', monospace;}
-footer nav li{display: inline-block; width: 15%;position:static; font-size: 20px;}
-footer div h3{font-family: 'IBM Plex Mono', monospace;font-style: bold;text-align: center;background-color: #c9e8fd; position:fixed;bottom:5px;left:10px;} 
+footer nav li{display: inline-block; width: 15%;position:static; font-size: 10px;}
+footer div h3{font-family: 'IBM Plex Mono', monospace;font-style: bold;text-align: center;background-color: #c9e8fd; position:fixed;bottom:5px;left:5px;} 
 
 /* INTERVALO MOBILE */
 @media screen and (max-width:768px){
